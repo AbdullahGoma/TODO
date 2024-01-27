@@ -1,0 +1,20 @@
+C++ compiler pre-installed
+C++ debugger pre-installed
+
+
+
+
+download msys
+packman -Syu
+packman -Su
+Go to 64bit
+packman -Ss gcc
+packman -S mingw-w64-x86_64-gcc
+packman -Ss gdb
+packman -S mingw-w64-x86_64-gdb
+Check Versions
+gcc --version
+g++ --version
+gdb --version
+
+Edit System variable
